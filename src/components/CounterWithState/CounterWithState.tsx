@@ -13,10 +13,10 @@ function CounterWithState() {
   // Состояние можно изменить только с помощью функции, которую возвращает useState
   // const state = useState(6);
 
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState<number>(0);
   // console.log(state);
 
-  const onMinus = () => {
+  const onMinus = (): void => {
     // Есть 2 варианта как вызывать функцию для изменения state
     // 1 - в круглые скобки просто передаём новое значение ("apple" -> "banana") setState("banana")
     // 2 - в круглые скобки передают функцию callback, в параметрах которой мы имеем доступ к
@@ -25,7 +25,7 @@ function CounterWithState() {
     setCount((prevState) => prevState - 1);
   };
 
-  const onPlus = () => {
+  const onPlus = (): void => {
     setCount((prev) => prev + 1);
   };
 
