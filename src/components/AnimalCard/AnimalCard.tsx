@@ -1,12 +1,12 @@
-import { AnimalImage, MyAnimalCard } from "./styles";
+import { AnimalDiv, AnimalH3, AnimalImage, MyAnimalCard } from "./styles";
 
 import type { AnimalCardProps } from "./types";
 
 function AnimalCard({name, species="unknown animal", imgSrc, children}:AnimalCardProps) {
   return (
     <MyAnimalCard>
-      <h3>{name}</h3>
-      <div>{species}</div>
+      <AnimalH3>{name}</AnimalH3>
+      <AnimalDiv>{species}</AnimalDiv>
       <AnimalImage src={imgSrc}/>
       {children}
     </MyAnimalCard>

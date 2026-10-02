@@ -2,7 +2,9 @@
 // import Lesson05 from "./lessons/Lesson05/Lesson05";
 // import Lesson06 from "./lessons/Lesson06/Lesson06";
 //import Homework06 from "./homeworks/Homework06/Homework06";
-import Lesson08 from "./lessons/Lesson08/Lesson08";
+//import Lesson08 from "./lessons/Lesson08/Lesson08";
+//import Lesson09 from "./lessons/Lesson09/Lesson09";
+import Lesson10 from "./lessons/Lesson10/Lesson10";
 import GlobalStyles from "./styles/GlobalStyles";
 //import Lesson07 from "./lessons/Lesson07/Lesson07";
 // Homeworks imports
@@ -21,7 +23,10 @@ function App() {
       {/* <Lesson07/> */}
       {/* <Homework06/> */}
   {/* Lesson 08. Controlled and uncontrolled components */}
-      <Lesson08/>
+      {/* <Lesson08/> */}
+      {/* <Lesson09/> */}
+       {/* Lesson 10. Formik, Yup */}
+      <Lesson10/>
     </>
   );
 }

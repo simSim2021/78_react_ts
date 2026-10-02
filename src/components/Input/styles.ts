@@ -1,17 +1,14 @@
 import styled from "@emotion/styled";
-
 export const InputWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 6px;
   width: 100%;
 `;
-
 export const Label = styled.label`
   font-size: 18px;
   color: rgb(13, 11, 42);
 `;
-
 export const InputComponent = styled.input`
   width: 100%;
   padding: 12px;
@@ -22,4 +19,8 @@ export const InputComponent = styled.input`
   &::placeholder {
     color: rgb(48, 43, 114);
   }
+`;
+export const ErrorMessage = styled.div`
+  font-size: 14px;
+  color: red;
 `;
