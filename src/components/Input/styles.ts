@@ -23,4 +23,5 @@ export const InputComponent = styled.input`
 export const ErrorMessage = styled.div`
   font-size: 14px;
   color: red;
+  height: 16px;
 `;
