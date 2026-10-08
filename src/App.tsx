@@ -4,7 +4,8 @@
 //import Homework06 from "./homeworks/Homework06/Homework06";
 //import Lesson08 from "./lessons/Lesson08/Lesson08";
 //import Lesson09 from "./lessons/Lesson09/Lesson09";
-import Homework10 from "./homeworks/Homework10/Homework10";
+//import Homework10 from "./homeworks/Homework10/Homework10";
+import Lesson11 from "./lessons/Lesson11/Lesson11";
 //import Lesson10 from "./lessons/Lesson10/Lesson10";
 import GlobalStyles from "./styles/GlobalStyles";
 //import Lesson07 from "./lessons/Lesson07/Lesson07";
@@ -28,7 +29,8 @@ function App() {
       {/* <Lesson09/> */}
        {/* Lesson 10. Formik, Yup */}
       {/* <Lesson10/> */}
-      <Homework10/>
+      {/* <Homework10/> */}
+      <Lesson11/>
     </>
   );
 }

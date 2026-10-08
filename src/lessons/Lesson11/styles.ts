@@ -11,14 +11,16 @@ export const Lesson11Wrapper = styled.div`
 `;
 
 export const TitleH2 = styled.h2`
-font-size: 30px;
+  font-size: 30px;
   color: rgb(3, 8, 141);
   text-align: center;
-`
+`;
 
 export const FormWrapper = styled.div`
-display: flex;
-flex-direction: row;
-align-items: center;
-`
-
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+`;
